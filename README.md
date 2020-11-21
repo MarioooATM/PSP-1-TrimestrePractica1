@@ -9,6 +9,6 @@ DB_PASSWORD: DAM2020_PSP
 - EMAIL: varchar(100)
 - INGRESOS: Integer
 
-##Autor: 
+## Autor: 
 Mario Jimenez
 
