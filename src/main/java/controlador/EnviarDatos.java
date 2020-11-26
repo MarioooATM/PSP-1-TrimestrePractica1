@@ -36,7 +36,7 @@ public class EnviarDatos extends Thread{
                 conectarBBDD(datos);
                 semaforo.release();
             } catch (InterruptedException d) {
-                d.printStackTrace();
+                System.out.println("Ha ocurrido un problema al crear los datos de insercion");
             }
         }
     }
@@ -50,7 +50,7 @@ public class EnviarDatos extends Thread{
             System.out.println(Thread.currentThread().getName()+" He añadido 1");
             conexion.close();
         } catch (SQLException throwables) {
-            throwables.printStackTrace();
+            System.out.println("Ha ocurrido un problema con la insercion de datos");
         }
     }
 
