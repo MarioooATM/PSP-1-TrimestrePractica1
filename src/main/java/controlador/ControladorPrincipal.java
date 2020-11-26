@@ -36,11 +36,8 @@ public class ControladorPrincipal {
             System.out.println("el numero de hilos no puede ser mayor que el de hilos");
             pideDatos();
         }
-
         int resto= registros%hilos;
-        System.out.println(resto);
         int rango=registros/hilos;
-        System.out.println(rango);
         int numInicial=1;
         int numFinal=rango;
         for(int x=1;x<=hilos;x++){
