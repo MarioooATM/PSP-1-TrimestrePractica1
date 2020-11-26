@@ -1,4 +1,4 @@
-# PSP1-TrimestrePractica1
+# PSP-1-TrimestrePractica1
 ## Esto es un programa para poder insertar datos aleatorios a una base de datos con los siguientes requisitos:
 Diseño de la base de datos:
 Database: BBDD_PSP_1
