@@ -46,14 +46,9 @@ public class ControladorPrincipal {
         for(int x=1;x<=hilos;x++){
             if(resto>=1 && x == hilos && registros>hilos){
                 numFinal+=resto;
-                System.out.println(numInicial+"Init");
-                System.out.println(numFinal+"Final");
             }
             EnviarDatos enviar = new EnviarDatos(numInicial,numFinal,semaforo);
             enviar.start();
-            System.out.println("rango "+x);
-            System.out.println(numInicial+"Init");
-            System.out.println(numFinal+"Final");
             numInicial+=rango;
             numFinal+=rango;
         }
